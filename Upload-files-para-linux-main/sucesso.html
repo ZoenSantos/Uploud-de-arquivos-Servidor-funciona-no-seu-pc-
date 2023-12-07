@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Parabéns o arquivo foi enviado com sucesso</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            /* Cor de fundo, pode ser ajustada conforme necessário */
+        }
+
+        h1 {
+            margin-bottom: 20px;
+            /* Adiciona algum espaço abaixo do título */
+        }
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #3498db;
+            /* Cor de fundo do botão, pode ser ajustada conforme necessário */
+            color: #fff;
+            /* Cor do texto do botão */
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #2980b9;
+            /* Cor de fundo do botão ao passar o mouse, pode ser ajustada conforme necessário */
+        }
+    </style>
+</head>
+
+<main class="fantastico">
+    <h1>Upload de Arquivo</h1>
+    <!-- Aqui exibimos a mensagem de sucesso -->
+    <p>Arquivo enviado com sucesso.</p>
+
+    <!-- Adicione um botão para voltar -->
+    <button id="voltar">Voltar</button>
+
+
+    <script>
+        // Adicione um evento de clique ao botão para redirecionar
+        document.getElementById('voltar').addEventListener('click', function () {
+            window.location.href = '/'; //Coloque aqui o link onde você gostaria que volta-se
+        });
+    </script>
+</main>
+
+</body>
+
+</html>
